@@ -395,6 +395,7 @@ function reset(){
     draw_grid();
     draw_placedmino(field);
     draw_targets();
+    draw_target_highlight();
 }
 function main(){
     reset();
